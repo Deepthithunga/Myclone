@@ -1,0 +1,22 @@
+git init
+git add readme.md
+git status
+git add "filename.ext"
+git commit -m"Msg of change"
+git remote add origin https://github.com/Deepthithunga/demogit.git 
+git remote push -u origin master
+$ git config --global user.email"deepthi.thunga@gmail.com" 
+$ git config --global user.name"deepthithunga"
+git add test.html
+git status
+git add .
+git status
+git branch mynewbranch
+git checkout mynewbranch
+touch test2.html
+git add test2.html
+git push -u origin mynewbranch
+git checkout master
+git merge mynewbranch
+git branch -d mynewbranch
+git push origin --delete mynewbranch
