@@ -20,3 +20,18 @@ git checkout master
 git merge mynewbranch
 git branch -d mynewbranch
 git push origin --delete mynewbranch
+git tag tagname
+git tag
+git tag -a v1.1 -m"msg"
+git tag
+git show v1.1
+git tag -l v.*
+git push orgin v1.0
+git push origin --tags
+git push --tags
+git tag -d v1.0
+git tag --d v1.0
+git push origin -d v1.0
+git push origin --delete v1.1 
+git checkout -b branchname tagname
+git tag tagname reference checksumnumber of commit
